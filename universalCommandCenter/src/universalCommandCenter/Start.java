@@ -28,6 +28,7 @@ public class Start {
 	
 			bot.driveDistance(100);
 			Delay.msdelay(200);
+			bot.driveDistance(10);
 			Sound.twoBeeps();
 			System.exit(1);
 		}
