@@ -27,13 +27,8 @@ public class Start {
 			com bot = new com(5.6, 15, Motor.D, Motor.A, SensorPort.S2,SensorPort.S4);
 	
 			bot.driveDistance(100);
-			Delay.msdelay(200);
-			bot.driveDistance(10);
 			Sound.twoBeeps();
 			System.exit(1);
-		}
-		public void hello() {
-			System.out.println("Hello");
 		}
 
 	}
