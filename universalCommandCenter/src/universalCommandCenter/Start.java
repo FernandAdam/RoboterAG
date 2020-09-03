@@ -31,6 +31,9 @@ public class Start {
 			Sound.twoBeeps();
 			System.exit(1);
 		}
+		public void hello() {
+			System.out.println("Hello");
+		}
 
 	}
 
