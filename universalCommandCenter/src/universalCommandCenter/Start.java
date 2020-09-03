@@ -26,7 +26,7 @@ public class Start {
 		public static void main(String[] args) {
 			com bot = new com(5.6, 15, Motor.D, Motor.A, SensorPort.S2,SensorPort.S4);
 	
-			bot.driveDistance(10000);
+			bot.driveDistance(1000);
 			Sound.twoBeeps();
 			System.exit(1);
 		}
